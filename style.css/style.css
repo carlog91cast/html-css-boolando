@@ -22,11 +22,25 @@
     margin-bottom: 50px;
     justify-content: center;
 }
+.hyde {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s  ;
+    opacity: 0;
+}
+
+.container:hover .hyde{
+    opacity: 1;
+    
+}
+
 
 .container {
     margin-left: 30px;
     margin-right: 30px;
     position: relative;
+
 }
 
 .container h3 {
@@ -34,7 +48,7 @@
     color: white;
     background-color: red;
     display: inline-block;
-    bottom: 80px;
+    bottom: 140px;
     left: 0;
     padding: 10px;
 }
@@ -45,10 +59,18 @@ h3.green{
 .green.solo{
     left: 0;
 }
-
-
-
-
-.hyde {
-    display: none;
+p{
+    color: darkgray;
 }
+
+i{
+    position: absolute;
+    color: red;
+    background-color: white;
+    display: inline-block;
+    right: 0;
+    top: 10px;
+    padding: 10px;
+
+}
+
