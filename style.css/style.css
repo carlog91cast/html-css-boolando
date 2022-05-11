@@ -6,24 +6,48 @@
 }
 
 /* galleria prodotti */
+.totalbox{
+    width: 800px;
+    margin: 0 auto;
+}
+
 .resizing {
     width: 640px;
 }
 
 .supercontainer {
-    width: 800px;
-    margin: 0 auto;
+
     display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    justify-content:stretch;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
 }
 
 .container {
-    padding-left: 30px;
-    padding-right: 30px;
-
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
 }
+
+.container h3 {
+    position: absolute;
+    color: white;
+    background-color: red;
+    display: inline-block;
+    bottom: 80px;
+    left: 0;
+    padding: 10px;
+}
+h3.green{
+    background-color: green;
+    left: 70px;
+}
+.green.solo{
+    left: 0;
+}
+
+
+
 
 .hyde {
     display: none;
