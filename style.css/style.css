@@ -10,19 +10,14 @@
     width: 640px;
 }
 
+
+
 .supercontainer {
+    width: 800px;
+    margin: 0 auto;
     display: flex;
     padding-top: 50px;
     padding-bottom: 50px;
-    justify-content: center;
-}
-
-
-
-.supercontainer-under {
-    display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
     justify-content: center;
 }
 
@@ -31,16 +26,6 @@
     padding-right: 30px;
 
 }
-
-.levis {}
-
-.guess {}
-
-.zucchero {}
-
-.bodice {}
-
-.black {}
 
 .hyde {
     display: none;
